@@ -1,0 +1,50 @@
+{
+    "config1": {
+        "dataset": "twitter",
+        "output_dir": "/home/itadmin/Desktop/machine learning tutorials/LCF-ATEPC/output",
+        "use_bert_spc": false,
+        "SRD": 5,
+        "learning_rate": 3e-5,
+        "dropout": 0,
+        "num_train_epochs": 3,
+        "train_batch_size": 8,
+        "max_seq_length": 60,
+        "local_context_focus": "cdm"
+      },
+      "config2": {
+        "dataset": "twitter",
+        "output_dir": "/home/itadmin/Desktop/machine learning tutorials/LCF-ATEPC/output",
+        "use_bert_spc": false,
+        "SRD": 5,
+        "learning_rate": 3e-5,
+        "dropout": 0,
+        "num_train_epochs": 3,
+        "train_batch_size": 8,
+        "max_seq_length": 60,
+        "local_context_focus": "cdw"
+      },
+      "config3": {
+        "dataset": "twitter",
+        "output_dir": "/home/itadmin/Desktop/machine learning tutorials/LCF-ATEPC/output",
+        "use_bert_spc": false,
+        "SRD": 5,
+        "learning_rate": 3e-5,
+        "dropout": 0,
+        "num_train_epochs": 3,
+        "train_batch_size": 8,
+        "max_seq_length": 60,
+        "local_context_focus": "fusion"
+      },
+      "config4": {
+        "dataset": "twitter",
+        "output_dir": "/home/itadmin/Desktop/machine learning tutorials/LCF-ATEPC/output",
+        "use_bert_spc": false,
+        "SRD": 5,
+        "learning_rate": 3e-5,
+        "dropout": 0,
+        "num_train_epochs": 3,
+        "train_batch_size": 8,
+        "max_seq_length": 60,
+        "local_context_focus": "None"
+      }
+}
